@@ -5,26 +5,25 @@ import { SiMysql, SiTypescript } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
 import { BsBootstrapFill } from 'react-icons/bs'
 
-const IconRow: React.FC = () => {
+const ProjectIcons: React.FC = () => {
 
     return (
         <div className={'icon-group'}>
-            <DiJsBadge />
+            {/* <DiJsBadge /> */}
             <DiReact />
             <DiNodejsSmall />
             <DiMongodb />
-            <SiMysql />
-            <DiCss3 />
+            {/* <SiMysql />
+            <DiCss3 /> */}
             <DiHtml5 />
             <SiTypescript />
-            <AiFillGithub />
+            {/* <AiFillGithub />
             <DiJqueryLogo />
-            <BsBootstrapFill />
+            <BsBootstrapFill /> */}
             {/* create a parent object with each element set to false, condistionally render based on k/v value */}
         </div>
 
     )
 };
 
-export default IconRow;
-
+export default ProjectIcons;

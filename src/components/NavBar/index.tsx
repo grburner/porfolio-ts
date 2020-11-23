@@ -7,9 +7,9 @@ const NavBar: React.FC = () => {
       <nav className={'navbar'}>
         <div></div>
         <ul>
-          <li className={'navbar-item'}><p>About</p></li>
-          <li className={'navbar-item'}><p>Projects</p></li>
-          <li className={'navbar-item'}><p>Contact</p></li>
+          <li><p className={'navbar-item'}>About</p></li>
+          <li><p className={'navbar-item'}>Projects</p></li>
+          <li><p className={'navbar-item'}>Contact</p></li>
         </ul>
       </nav>
     </div>

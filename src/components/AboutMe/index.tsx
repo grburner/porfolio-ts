@@ -2,8 +2,10 @@ import React from 'react';
 import './style.css';
 import IconRow from '../IconRow';
 import { IconContext } from 'react-icons';
+import Icons from '../../util_iconrender';
 
 const AboutMe: React.FC = () => {
+
     return (
         <div id={'about-me'}>
             <div></div>
