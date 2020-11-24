@@ -15,7 +15,7 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   align-items: center;
-  padding: 1rem; 
+  padding: 2rem 5rem 0 0; 
 }
 
 ul {
@@ -28,6 +28,11 @@ ul {
 li {
     transition: color 0.3s ease-out;
     text-align: center;
+    font-weight: 1000;
+}
+
+.navbar-item {
+  font-weight: 1000;
 }
 
 .navbar-item:hover {
