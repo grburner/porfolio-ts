@@ -5,22 +5,21 @@ import { SiMysql, SiTypescript } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
 import { BsBootstrapFill } from 'react-icons/bs'
 
-const ProjectIcons: React.FC = () => {
+const ProjectIcons: React.FC<{techs: Array<string>}> = ({ techs }) => {
 
     return (
         <div className={'icon-group'}>
-            {/* <DiJsBadge /> */}
-            <DiReact />
-            <DiNodejsSmall />
-            <DiMongodb />
-            {/* <SiMysql />
-            <DiCss3 /> */}
-            <DiHtml5 />
-            <SiTypescript />
-            {/* <AiFillGithub />
-            <DiJqueryLogo />
-            <BsBootstrapFill /> */}
-            {/* create a parent object with each element set to false, condistionally render based on k/v value */}
+            {techs.includes('js') ? <DiJsBadge /> : ''}
+            {techs.includes('react') ? <DiReact /> : ''}
+            {techs.includes('node') ? <DiNodejsSmall /> : ''}
+            {techs.includes('mongo') ? <DiMongodb /> : ''}
+            {techs.includes('mysql') ? <SiMysql /> : ''}
+            {techs.includes('css') ? <DiCss3 /> : ''}
+            {techs.includes('html') ? <DiHtml5 /> : ''}
+            {techs.includes('ts') ? <SiTypescript /> : ''}
+            {techs.includes('github') ? <AiFillGithub /> : ''}
+            {techs.includes('jquery') ? <DiJqueryLogo /> : ''}
+            {techs.includes('bootstrap') ? <BsBootstrapFill /> : ''}
         </div>
 
     )
