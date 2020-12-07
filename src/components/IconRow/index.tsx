@@ -20,7 +20,6 @@ const IconRow: React.FC = () => {
             <AiFillGithub />
             <DiJqueryLogo />
             <BsBootstrapFill />
-            {/* create a parent object with each element set to false, condistionally render based on k/v value */}
         </div>
 
     )
