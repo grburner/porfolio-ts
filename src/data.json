@@ -2,21 +2,21 @@
     "projects": [
         {
             "title": "Dibruno Retailer Dash",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "tech": ["react", "node", "mongo", "html", "ts"],
-            "image": "https://www.fillmurray.com/300/300"
+            "description": "This project is Wine Store Management application. Wine 'A' Lot Management System application helps to keep track the inventory and sales information. This Application is a simple reporting dashboard to quickly visualize historical sales data and make data driven decisions. Users can easily find the Slow or fast movement of their products also Slaes Margin, profit and loss in their business. In addition to the technologies listed below we leveraged Sequelize, AMCharts and an MVC structure to manage our app.",
+            "tech": ["js", "node", "mysql", "html", "github", "css"],
+            "image": "dbdash.png"
         },
         {
-            "title": "This Page",
-            "description": "bla bla bla blahhhhhh bla bla bla blahhhhhh bla bla bla blahhhhhh bla bla bla blahhhhhh bla bla bla blahhhhhh",
-            "tech": ["react", "mysql", "git", "html", "jquery"],
-            "image": "https://baconmockup.com/300/300/"
+            "title": "React Google Books Search",
+            "description": "This Google Books Search uses the Google Books API to power a full stack MERN application. Users can easily search for books, see all relevant information, and add and remove books from their reading list",
+            "tech": ["react", "html", "github", "bootstrap", "mongo"],
+            "image": "googlebooks.png"
         },
         {
             "title": "WineHub",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "tech": ["js", "node", "mongo", "css", "react"],
-            "image": "https://baconmockup.com/300/300/"
+            "description": "MERN eCommerce solution for small wine retailers. The application allows retailers to upload / manage product inventory and consumers to search, filter and purchase from a marketplace to find their perfect wine. There is both a consumer and retailer portal, connected to a common inventory database as well as a built from scratch shopping cart component. In addition to the technologies listed below we used a Redux like structure with Context, ESLint, Passport, Morgan, and Cloudinary Media Hosting.",
+            "tech": ["js", "node", "react", "mongo", "github", "css", "html"],
+            "image": "winehub.png"
         }
     ]
 }

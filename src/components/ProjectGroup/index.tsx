@@ -5,6 +5,9 @@ import ProjectImage from '../ProjectImage';
 import ProjectIcons from '../ProjectIcons';
 import { IconContext } from 'react-icons';
 import data from '../../data.json';
+import winehubImg from '../../assets/winehub.png';
+import dbdashImg from '../../assets/dbdash.png';
+import googlebooksImg from '../../assets/googlebooks.png';
 
 const ProjectGroup: React.FC = () => {
   const [projectIndex, setProjectIndex] = useState<number>(1);
@@ -23,13 +26,13 @@ const ProjectGroup: React.FC = () => {
         </div>
         <div className="project-images">
           <div onClick={() => imageClickHandler(0)}>
-            <ProjectImage image={data.projects[0].image}/>
+            <ProjectImage image={dbdashImg}/>
           </div>
           <div onClick={() => imageClickHandler(1)}>
-            <ProjectImage image={data.projects[1].image}/>
+            <ProjectImage image={googlebooksImg}/>
           </div>
           <div onClick={() => imageClickHandler(2)}>
-            <ProjectImage image={data.projects[2].image}/>
+            <ProjectImage image={winehubImg}/>
           </div>
         </div>
       </div>

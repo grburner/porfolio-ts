@@ -4,7 +4,7 @@ import './style.css';
 const ProjectImage: React.FC<{image: string}> = (props) => {
     return (
     <div>
-        <img src={props.image}/>
+        <img className={'still-img'} src={props.image} alt='wine hub'/>
     </div>
     );
 };

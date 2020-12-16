@@ -13,7 +13,7 @@
 .navbar {
   background-color: #f0fefd;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 7fr 3fr;
   align-items: center;
   padding: 2rem 5rem 0 0; 
 }
@@ -21,8 +21,7 @@
 ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-
+  grid-template-columns: repeat(4,1fr);
 }
 
 li {
