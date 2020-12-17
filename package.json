@@ -1,44 +1,24 @@
 {
   "name": "gb-port",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.1",
-    "@testing-library/user-event": "^12.2.2",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.19.6",
-    "@types/react": "^16.9.56",
-    "@types/react-dom": "^16.9.9",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-icons": "^3.11.0",
-    "react-scripts": "4.0.0",
-    "typescript": "^4.1.2",
-    "web-vitals": "^0.2.4"
-  },
+  "version": "1.0.0",
+  "description": "Personal portfolio in TS and React",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm run start",
+    "build": "cd client && npm run build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grburner/porfolio-ts.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grburner/porfolio-ts/issues"
+  },
+  "homepage": "https://github.com/grburner/porfolio-ts#readme",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
